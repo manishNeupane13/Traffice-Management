@@ -1,0 +1,149 @@
+.contentreg {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #765a5a;
+    position: relative;
+}
+
+.contentreg .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.contentreg h1 {
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+
+.contentreg span {
+    color: tomato;
+    font-size: 65px
+}
+
+.formreg {
+    width: 350px;
+    height: 550px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(149, 71, 71, 0.883), rgba(236, 136, 189, 0.969));
+    background-color: #302f2c48;
+    position: absolute;
+    top: -20px;
+    left: 860px;
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.formreg h2 {
+
+    text-align: center;
+    color: whitesmoke;
+    font-size: 36px;
+    font-family: monospace;
+    margin-left: 1rem;
+    font-weight: bold;
+
+}
+
+.formreg input {
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+
+}
+
+.formreg input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.signup {
+    width: 120px;
+    
+    height: 40px;
+    background: #054f1f;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: 0.4s ease;
+}
+
+.signup:hover {
+    background: #f89b4ff4;
+}
+
+.signup a {
+    text-decoration: none;
+    color: #fffdfd;
+    font-weight: bold;
+}
+
+.formreg .link {
+    font-size: 18px;
+    padding-top: 15px;
+    text-align: center;
+    color: #000;
+}
+
+.formreg .link a{
+    color:whitesmoke;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:steelblue;
+    
+
+}
+
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #000;
+
+}
+
+.icons a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 2rem;
+}
+
+.icons ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: #4000ff;
+}
